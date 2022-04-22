@@ -37,6 +37,7 @@ class UserFragment : BaseFragment(R.layout.fragment_user), View.OnClickListener,
         observeViewModel()
         setupRecyclerView()
         setupSwipeToRefresh()
+
     }
 
     override fun setupInsets() {

@@ -15,11 +15,7 @@ import androidx.navigation.fragment.findNavController
 import com.afollestad.materialdialogs.MaterialDialog
 import com.baseproject.util.flow.collectWhileStarted
 import com.baseproject.util.permission.checkPermission
-import com.baseproject.util.view.buildLoadingDialog
-import com.baseproject.util.view.dialogBuilder
-import com.baseproject.util.view.hideKeyboard
-import com.baseproject.util.view.snackbar
-import com.baseproject.util.view.toast
+import com.baseproject.util.view.*
 
 abstract class BaseFragment(@LayoutRes layoutId: Int) : Fragment(layoutId) {
 
